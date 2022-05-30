@@ -16,11 +16,11 @@ using System.Windows.Shapes;
 namespace BIO.Part1
 {
     /// <summary>
-    /// Логика взаимодействия для Part1Page1.xaml
+    /// Логика взаимодействия для Part1Page4.xaml
     /// </summary>
-    public partial class Part1Page1 : Page
+    public partial class Part1Page4 : Page
     {
-        public Part1Page1()
+        public Part1Page4()
         {
             InitializeComponent();
         }
@@ -28,18 +28,13 @@ namespace BIO.Part1
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             MainMenu mainMenu = Window.GetWindow(this) as MainMenu;
-            mainMenu.mainFrame.Navigate(new MainPage());
+            mainMenu.mainFrame.Navigate(new Part1.Part1Page5());
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
             MainMenu mainMenu = Window.GetWindow(this) as MainMenu;
-            mainMenu.mainFrame.Navigate(new Part1.Part1Page2());
-        }
-
-        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
-        {
-
+            mainMenu.mainFrame.Navigate(new Part1.Part1Page3());
         }
     }
 }

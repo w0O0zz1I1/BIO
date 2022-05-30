@@ -89,6 +89,18 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Part1\Part1Page3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Part1\Part1Page4.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Part1\Part1Page5.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Part1\Part1Page1.xaml.cs">
@@ -96,6 +108,15 @@
     </Compile>
     <Compile Include="Part1\Part1Page2.xaml.cs">
       <DependentUpon>Part1Page2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Part1\Part1Page3.xaml.cs">
+      <DependentUpon>Part1Page3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Part1\Part1Page4.xaml.cs">
+      <DependentUpon>Part1Page4.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Part1\Part1Page5.xaml.cs">
+      <DependentUpon>Part1Page5.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
@@ -127,6 +148,24 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Image1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image7.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
