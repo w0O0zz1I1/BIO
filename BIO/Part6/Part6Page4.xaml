@@ -13,16 +13,16 @@
         <CheckBox Content="Первычный рот" HorizontalAlignment="Left" Margin="28,94,0,0" VerticalAlignment="Top" Width="120"/>
         <CheckBox Content="Гаструла" HorizontalAlignment="Left" Margin="28,114,0,0" VerticalAlignment="Top" Width="120"/>
         <TextBlock HorizontalAlignment="Left" Margin="28,43,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="274"><Run Language="ru-ru" Text="Как называется полость внутри бластулы"/></TextBlock>
-        <TextBlock HorizontalAlignment="Left" Margin="28,136,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="301" RenderTransformOrigin="0.505,1.198"><Run Language="ru-ru" Text="На какой 
+        <TextBlock HorizontalAlignment="Left" Margin="28,181,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="301" RenderTransformOrigin="0.505,1.198"><Run Language="ru-ru" Text="На какой 
 день после оплодотворения бластула выходит из яйцевода "/></TextBlock>
-        <CheckBox Content="10" HorizontalAlignment="Left" Margin="28,173,0,0" VerticalAlignment="Top" Width="120"/>
-        <CheckBox Content="не выходит" HorizontalAlignment="Left" Margin="28,193,0,0" VerticalAlignment="Top" Width="120"/>
-        <CheckBox Content="1" HorizontalAlignment="Left" Margin="28,213,0,0" VerticalAlignment="Top" Width="120"/>
-        <CheckBox x:Name="answer2" Content="6" HorizontalAlignment="Left" Margin="28,233,0,0" VerticalAlignment="Top" Width="120"/>
+        <CheckBox Content="10" HorizontalAlignment="Left" Margin="28,0,0,0" VerticalAlignment="Center" Width="120"/>
+        <CheckBox Content="не выходит" HorizontalAlignment="Left" Margin="28,238,0,0" VerticalAlignment="Top" Width="120"/>
+        <CheckBox Content="1" HorizontalAlignment="Left" Margin="28,258,0,0" VerticalAlignment="Top" Width="120"/>
+        <CheckBox x:Name="answer2" Content="6" HorizontalAlignment="Left" Margin="28,278,0,0" VerticalAlignment="Top" Width="120"/>
         <TextBlock HorizontalAlignment="Left" Margin="412,56,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="295"><Run Language="ru-ru" Text="Полость внутри гаструлы называется"/></TextBlock>
         <CheckBox x:Name="answer4" Content="Первичная кишка" HorizontalAlignment="Left" Margin="412,90,0,0" VerticalAlignment="Top" Width="245"/>
         <CheckBox Content="Маточная кишка" HorizontalAlignment="Left" Margin="412,110,0,0" VerticalAlignment="Top" Width="270"/>
-        <Button Content="Прямая кишка" HorizontalAlignment="Left" Margin="426,325,0,0" VerticalAlignment="Top" Width="145" Click="Button_Click"/>
+        <Button Content="Узнать оценку" HorizontalAlignment="Left" Margin="426,325,0,0" VerticalAlignment="Top" Width="145" Click="Button_Click"/>
         <TextBlock x:Name="resultTestTextBox" HorizontalAlignment="Left" Margin="607,325,0,0" TextWrapping="Wrap" Text="Оценка" VerticalAlignment="Top" Width="100"/>
         <Button Content="На главную" HorizontalAlignment="Left" Margin="128,330,0,0" VerticalAlignment="Top" Width="144" Click="Button_Click_1"/>
         <TextBlock HorizontalAlignment="Left" Margin="412,184,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="310"><Run Language="ru-ru" Text="Как называется отверстие которое ведет в гаструлу"/></TextBlock>

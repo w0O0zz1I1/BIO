@@ -10,8 +10,9 @@
 
     <Grid>
         <Image Margin="135,69,180,100" Source="/Image11.png" Stretch="Fill"/>
-        <Button Content="Вперед" HorizontalAlignment="Left" Margin="80,390,0,0" VerticalAlignment="Top" Width="198"/>
-        <Button Content="Назад" HorizontalAlignment="Left" Margin="497,390,0,0" VerticalAlignment="Top" Width="198"/>
+        <Button Content="Вперед" HorizontalAlignment="Left" Margin="80,390,0,0" VerticalAlignment="Top" Width="198" Click="Button_Click"/>
+        <Button Content="Назад" HorizontalAlignment="Left" Margin="497,390,0,0" VerticalAlignment="Top" Width="198" Click="Button_Click_1"/>
+        <TextBlock HorizontalAlignment="Left" Margin="366,426,0,0" TextWrapping="Wrap" Text="12 стр." VerticalAlignment="Top" Foreground="#FFB1ABAB"/>
 
     </Grid>
 </Page>

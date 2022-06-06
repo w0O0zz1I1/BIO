@@ -9,10 +9,11 @@
       Title="Part3Page2">
 
     <Grid>
-        <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="173" Width="769" FontSize="16"><Run Text="Клеточный центр (центросома). Он расположен в цитоплазме вблизи от ядра и образован двумя цент риолям и — цилиндрами, расположенными перпендикулярно друг к другу (рис. 29). Диаметр каждой"/><LineBreak/><Run Text="центриоли 150—250 нм, а длина — 300— 500 нм. Стенка каждой центриоли состоит из девяти комплексов микротрубочек, а каждый комплекс (или триплет), в свою очередь, построен из трех микротрубочек. Триплеты центриоли соединены"/><LineBreak/><Run Text="между собой рядом связок. Основной белок, образующий центриоли, — тубулин."/><LineBreak/><Run/></TextBlock>
-        <Image Margin="101,147,147,65" Source="/Image9.png" Stretch="Fill"/>
-        <Button Content="Вперед" HorizontalAlignment="Left" Margin="85,408,0,0" VerticalAlignment="Top" Width="198"/>
-        <Button Content="Назад" HorizontalAlignment="Left" Margin="502,408,0,0" VerticalAlignment="Top" Width="198"/>
+        <TextBlock HorizontalAlignment="Left" Margin="22,52,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="173" Width="768" FontSize="13"><Run Text="Клеточный центр (центросома). Он расположен в цитоплазме вблизи от ядра и образован двумя цент риолям и — цилиндрами, расположенными перпендикулярно друг к другу (рис. 29). Диаметр каждой"/><LineBreak/><Run Text="центриоли 150—250 нм, а длина — 300— 500 нм. Стенка каждой центриоли состоит из девяти комплексов микротрубочек, а каждый комплекс (или триплет), в свою очередь, построен из трех микротрубочек. Триплеты центриоли соединены"/><LineBreak/><Run Text="между собой рядом связок. Основной белок, образующий центриоли, — тубулин."/><LineBreak/><Run/></TextBlock>
+        <Image Margin="101,152,147,60" Source="/Image9.png" Stretch="Fill"/>
+        <Button Content="Вперед" HorizontalAlignment="Left" Margin="85,408,0,0" VerticalAlignment="Top" Width="198" Click="Button_Click"/>
+        <Button Content="Назад" HorizontalAlignment="Left" Margin="502,408,0,0" VerticalAlignment="Top" Width="198" Click="Button_Click_1"/>
+        <TextBlock HorizontalAlignment="Left" Margin="366,426,0,0" TextWrapping="Wrap" Text="9 стр." VerticalAlignment="Top" Foreground="#FFB1ABAB"/>
 
     </Grid>
 </Page>

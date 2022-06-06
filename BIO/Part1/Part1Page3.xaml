@@ -13,5 +13,6 @@
         <Image Margin="260,204,36,77" Source="/Image4.png" Stretch="Fill"/>
         <Button Content="Вперед" HorizontalAlignment="Left" Margin="36,240,0,0" VerticalAlignment="Top" Width="199" Click="Button_Click"/>
         <Button Content="Назад" HorizontalAlignment="Left" Margin="36,302,0,0" VerticalAlignment="Top" Width="199" Click="Button_Click_1"/>
+        <TextBlock HorizontalAlignment="Left" Margin="366,426,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="#FFB1ABAB"><Run Language="ru-ru" Text="3"/><Run Text=" стр."/></TextBlock>
     </Grid>
 </Page>

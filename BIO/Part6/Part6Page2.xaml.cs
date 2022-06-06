@@ -24,5 +24,17 @@ namespace BIO.Part6
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            MainMenu mainMenu = Window.GetWindow(this) as MainMenu;
+            mainMenu.mainFrame.Navigate(new Part6.Part6Page3());
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            MainMenu mainMenu = Window.GetWindow(this) as MainMenu;
+            mainMenu.mainFrame.Navigate(new Part6.Part6Page1());
+        }
     }
 }

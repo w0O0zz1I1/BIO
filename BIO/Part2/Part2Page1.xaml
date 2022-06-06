@@ -9,10 +9,11 @@
       Title="Part2Page1">
 
     <Grid>
-        <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="215" Width="493" FontSize="14"><Run Text="Все определения содержали следующие постулаты, отражающие"/><LineBreak/><Run Text="сущность жизни:"/><LineBreak/><Run Text="— жизнь есть особая форма движения материи;"/><LineBreak/><Run Text="— жизнь есть обмен веществ и энергии в организме;"/><LineBreak/><Run Text="— жизнь есть жизнедеятельность в организме;"/><LineBreak/><Run Text="— жизнь есть самовоспроизведение организмов, которое обеспечивается передачей генетической информации от поколения к поколению."/><LineBreak/><Run/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="10,47,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="215" Width="493" FontSize="14"><Run Text="Все определения содержали следующие постулаты, отражающие"/><LineBreak/><Run Text="сущность жизни:"/><LineBreak/><Run Text="— жизнь есть особая форма движения материи;"/><LineBreak/><Run Text="— жизнь есть обмен веществ и энергии в организме;"/><LineBreak/><Run Text="— жизнь есть жизнедеятельность в организме;"/><LineBreak/><Run Text="— жизнь есть самовоспроизведение организмов, которое обеспечивается передачей генетической информации от поколения к поколению."/><LineBreak/><Run/></TextBlock>
         <TextBlock HorizontalAlignment="Left" Margin="316,204,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="474" Height="154" FontSize="15"><Run Text="В самом общем смысле жизнь можно определить как активное,"/><LineBreak/><Run Text="идущее с затратой энергии, полученной извне, поддержание"/><LineBreak/><Run Text="и самовоспроизведение специфических структур , состоящих"/><LineBreak/><Run Text="из биополимеров — белков и нуклеиновых кислот."/></TextBlock>
-        <Button Content="Вперед" HorizontalAlignment="Left" Margin="64,362,0,0" VerticalAlignment="Top" Width="231"/>
-        <Button Content="Назад" HorizontalAlignment="Left" Margin="437,362,0,0" VerticalAlignment="Top" Width="231"/>
+        <Button Content="Вперед" HorizontalAlignment="Left" Margin="64,362,0,0" VerticalAlignment="Top" Width="231" Click="Button_Click"/>
+        <Button Content="Назад" HorizontalAlignment="Left" Margin="437,362,0,0" VerticalAlignment="Top" Width="231" Click="Button_Click_1"/>
+        <TextBlock HorizontalAlignment="Left" Margin="366,426,0,0" TextWrapping="Wrap" Text="5 стр." VerticalAlignment="Top" Foreground="#FFB1ABAB"/>
 
     </Grid>
 </Page>

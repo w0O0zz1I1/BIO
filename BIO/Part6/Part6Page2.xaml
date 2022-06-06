@@ -9,9 +9,10 @@
       Title="Part6Page2">
 
     <Grid>
-        <Button Content="Вперед" HorizontalAlignment="Left" Margin="86,371,0,0" VerticalAlignment="Top" Width="198"/>
-        <Button Content="Назад" HorizontalAlignment="Left" Margin="503,371,0,0" VerticalAlignment="Top" Width="198"/>
-        <Image Margin="119,10,119,103" Source="/Image12.png" Stretch="Fill"/>
+        <Button Content="Вперед" HorizontalAlignment="Left" Margin="86,394,0,0" VerticalAlignment="Top" Width="198" Click="Button_Click"/>
+        <Button Content="Назад" HorizontalAlignment="Left" Margin="503,394,0,0" VerticalAlignment="Top" Width="198" Click="Button_Click_1"/>
+        <Image Margin="119,42,119,71" Source="/Image12.png" Stretch="Fill"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0,424,0,0" TextWrapping="Wrap" Text="19 стр." VerticalAlignment="Top" Foreground="#FFB1ABAB"/>
 
     </Grid>
 </Page>

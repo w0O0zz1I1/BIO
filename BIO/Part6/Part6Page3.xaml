@@ -10,8 +10,9 @@
 
     <Grid>
         <TextBlock HorizontalAlignment="Center" Margin="0,47,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="274" Width="780" FontSize="16"><Run Text="Взаимовлияние частей развивающегося зародыша. На первых"/><LineBreak/><Run Text="этапах дробления зиготы все бластомеры «равноправны»: если аккуратно выделить один из бластомеров зародыша тритона на той стадии,"/><LineBreak/><Run Text="когда их всего 16, то из этого бластомера при определенных условиях"/><LineBreak/><Run Text="можно вырастить здорового тритона. У кроликов (и, видимо, у человека тоже) такое «равенство» между бластомерами сохраняется только до стадии четырех бластомеров. Далее же начинается внешне незаметная дифференцировка клеток, приводящая к образованию из бластомеров различных частей и органов зародыша. Все части зародыша"/><LineBreak/><Run Text="влияют друг на друга, причем если это влияние нарушить, то развития нормального организма не происходит. Такие влияния получили название эмбриональной индукции ."/></TextBlock>
-        <Button Content="Вперед" HorizontalAlignment="Left" Margin="87,345,0,0" VerticalAlignment="Top" Width="198"/>
-        <Button Content="Назад" HorizontalAlignment="Left" Margin="504,345,0,0" VerticalAlignment="Top" Width="198"/>
+        <Button Content="Вперед" HorizontalAlignment="Left" Margin="87,345,0,0" VerticalAlignment="Top" Width="198" Click="Button_Click"/>
+        <Button Content="Назад" HorizontalAlignment="Left" Margin="504,345,0,0" VerticalAlignment="Top" Width="198" Click="Button_Click_1"/>
+        <TextBlock HorizontalAlignment="Left" Margin="378,415,0,0" TextWrapping="Wrap" Text="20 стр." VerticalAlignment="Top" Foreground="#FFB1ABAB"/>
 
     </Grid>
 </Page>

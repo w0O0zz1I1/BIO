@@ -9,9 +9,9 @@
       Title="Part2Page3">
 
     <Grid>
-        <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="82" Width="495"><Run Text="5. Самовоспроизведение репродукция). Способность к самовоспроизведению является важнейшим свойством всех живых организмов. В ее основе лежит информация о строении и функциях любого живого организма, заложенная в нуклеиновых кислотах и обеспечивающая специфичность структуры и жизнедеятельности живого."/><LineBreak/><Run/></TextBlock>
-        <TextBlock HorizontalAlignment="Center" Margin="0,84,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="780"><Run Language="ru-ru" Text="6. "/><Run Text="Саморегуляция. Любой живой организм подвергается воздействию непрерывно меняющихся условий окружающей среды. В то же"/><LineBreak/><Run Text="время для протекания процессов жизнедеятельности в клетках необходимы определенные условия. Благодаря механизмам саморегуляции"/><LineBreak/><Run Text="сохраняется относительное постоянство внутренней среды организма,"/><LineBreak/><Run Text="т. е. поддерживается постоянство химического состава и интенсивность"/><LineBreak/><Run Text="течения физиологических процессов (иными словами, поддерживается"/><LineBreak/><Run Text="гомеостаз: от греч. homoios — одинаковый и stasis — состояние)."/></TextBlock>
-        <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Center" Width="780" RenderTransformOrigin="0.5,0.5" Height="58">
+        <TextBlock HorizontalAlignment="Left" Margin="10,50,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="82" Width="495"><Run Text="5. Самовоспроизведение репродукция). Способность к самовоспроизведению является важнейшим свойством всех живых организмов. В ее основе лежит информация о строении и функциях любого живого организма, заложенная в нуклеиновых кислотах и обеспечивающая специфичность структуры и жизнедеятельности живого."/><LineBreak/><Run/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="20,124,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="780"><Run Language="ru-ru" Text="6. "/><Run Text="Саморегуляция. Любой живой организм подвергается воздействию непрерывно меняющихся условий окружающей среды. В то же"/><LineBreak/><Run Text="время для протекания процессов жизнедеятельности в клетках необходимы определенные условия. Благодаря механизмам саморегуляции"/><LineBreak/><Run Text="сохраняется относительное постоянство внутренней среды организма,"/><LineBreak/><Run Text="т. е. поддерживается постоянство химического состава и интенсивность"/><LineBreak/><Run Text="течения физиологических процессов (иными словами, поддерживается"/><LineBreak/><Run Text="гомеостаз: от греч. homoios — одинаковый и stasis — состояние)."/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Width="780" RenderTransformOrigin="0.5,0.5" Height="58" Margin="20,225,0,0">
             <TextBlock.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -20,10 +20,11 @@
                     <TranslateTransform X="0"/>
                 </TransformGroup>
             </TextBlock.RenderTransform><Run Language="ru-ru" Text="7. "/><Run Text="Развити"/><Run Language="ru-ru" Text="е"/><Run Text="  и рост. В процессе индивидуального развития (онтогенеза) постепенно и последовательно проявляются индивидуальные"/><LineBreak/><Run Text="свойства организма и осуществляется его рост. Кроме того, все живые"/><LineBreak/><Run Text="системы эволюцион"/></TextBlock>
-        <TextBlock HorizontalAlignment="Center" Margin="0,259,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="780" Height="38"><Run Language="ru-ru" Text="8"/><Run Text=". Раздраж имость. Любой живой организм способен избирательно реагировать на внешние и внутренние воздействия."/></TextBlock>
-        <TextBlock HorizontalAlignment="Center" Margin="0,297,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="780"><Run Language="ru-ru" Text="9. "/><Run Text="Наследственность и изменчивость. Преемственность поколений обеспечивается наследственностью. Потомки не являются копиям и своих родителей из-за способности наследственной информации к изменениям — изменчивости."/></TextBlock>
-        <Button Content="Вперед" HorizontalAlignment="Left" Margin="67,392,0,0" VerticalAlignment="Top" Width="246"/>
-        <Button Content="Назад" HorizontalAlignment="Left" Margin="455,392,0,0" VerticalAlignment="Top" Width="246"/>
+        <TextBlock HorizontalAlignment="Left" Margin="20,288,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="780" Height="38"><Run Language="ru-ru" Text="8"/><Run Text=". Раздраж имость. Любой живой организм способен избирательно реагировать на внешние и внутренние воздействия."/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="20,326,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="780"><Run Language="ru-ru" Text="9. "/><Run Text="Наследственность и изменчивость. Преемственность поколений обеспечивается наследственностью. Потомки не являются копиям и своих родителей из-за способности наследственной информации к изменениям — изменчивости."/></TextBlock>
+        <Button Content="Вперед" HorizontalAlignment="Left" Margin="67,392,0,0" VerticalAlignment="Top" Width="246" Click="Button_Click_1"/>
+        <Button Content="Назад" HorizontalAlignment="Left" Margin="455,392,0,0" VerticalAlignment="Top" Width="246" Click="Button_Click"/>
+        <TextBlock HorizontalAlignment="Left" Margin="366,426,0,0" TextWrapping="Wrap" Text="7 стр." VerticalAlignment="Top" Foreground="#FFB1ABAB"/>
 
     </Grid>
 </Page>

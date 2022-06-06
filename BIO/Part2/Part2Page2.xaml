@@ -14,8 +14,9 @@
         <TextBlock HorizontalAlignment="Left" Margin="20,139,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="770" Height="78"><Run Text="2. Единство структурной организации. Клетка является единой структурно-функциональной единицей, а также единицей развития почти для всех живых организмов на Земле. Исключением являются вирусы, но и у них свойства живого проявляются, лишь когда"/><LineBreak/><Run Text="они находятся в клетке. Вне клетки жизни нет."/></TextBlock>
         <TextBlock HorizontalAlignment="Left" Margin="20,205,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="770" Height="85"><Run Text="3. Открытость. Все живые организмы представляют собой от ­"/><Run Text="рытые сис"/><Run Language="ru-ru" Text="т"/><Run Text="емы , т. е. системы, устойчивые лишь при условии непрерывного поступления в них энергии и вещества из окружающей"/><Run Language="ru-ru" Text=" "/><Run Text="среды."/></TextBlock>
         <TextBlock HorizontalAlignment="Left" Margin="20,260,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="770" Height="116"><Run Text="4. Обмен веществ и энергии. Все живые организмы способны к"/><LineBreak/><Run Text="обмену веществ с окружающей средой. Обмен веществ осуществляется в результате двух взаимосвязанных процессов: синтеза органических веществ в организме (за счет внешних источников энергии —"/><LineBreak/><Run Text="света и пищи) и процесса распада сложных органических веществ"/><LineBreak/><Run Text="с выделением энергии, которая затем расходуется организмом."/><LineBreak/><Run Text="Обмен веществ обеспечивает постоянство химического состава в непрерывно меняющихся условиях окружающей среды."/></TextBlock>
-        <Button Content="Вперед" HorizontalAlignment="Left" Margin="67,392,0,0" VerticalAlignment="Top" Width="246"/>
-        <Button Content="Назад" HorizontalAlignment="Left" Margin="455,392,0,0" VerticalAlignment="Top" Width="246"/>
+        <Button Content="Вперед" HorizontalAlignment="Left" Margin="67,392,0,0" VerticalAlignment="Top" Width="246" Click="Button_Click"/>
+        <Button Content="Назад" HorizontalAlignment="Left" Margin="455,392,0,0" VerticalAlignment="Top" Width="246" Click="Button_Click_1"/>
+        <TextBlock HorizontalAlignment="Left" Margin="366,426,0,0" TextWrapping="Wrap" Text="6 стр." VerticalAlignment="Top" Foreground="#FFB1ABAB"/>
 
     </Grid>
 </Page>
