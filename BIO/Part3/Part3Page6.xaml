@@ -1,0 +1,17 @@
+﻿<Page x:Class="BIO.Part3.Part3Page6"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:BIO.Part3"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Part3Page6">
+
+    <Grid>
+        <TextBlock HorizontalAlignment="Center" Margin="0,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="384" Width="780" FontSize="16"><Run Text="Митохондрии. Органоиды клетки, участвующие в процессе клеточного дыхания и запасающие для клетки энергию в виде АТФ (т. е. в такой форме, в которой энергия доступна для использования во всех"/><LineBreak/><Run Text="процессах клетки, требующих затрат энергии), имеют название «митохондрии». Митохондрии встречаются практически во всех клетках"/><LineBreak/><Run Text="эукариот, за исключением некоторых паразитических простейших и"/><LineBreak/><Run Text="эритроцитов млекопитающих. Количество митохондрий в клетке"/><LineBreak/><Run Text="варьирует от единиц (сперматозоиды, некоторые водоросли и простейшие) до тысяч. Особенно много митохондрий в тех клетках, которые"/><LineBreak/><Run Text="нуждаются в больших количествах энергии (у животных — клетки"/><LineBreak/><Run Text="печени, мышечные клетки). Чаще всего митохондрии имеют шарообразную, овальную или палочковидную формы (рис. 34), но у некоторых грибов описаны гигантские разветвленные митохондрии, в нейронах — нитевидные митохондрии. Несмотря на разнообразие формы, все митохондрии имеют единый план строения. Они образованы"/><LineBreak/><Run Text="двумя мембранами. Внешняя мембрана гладкая, а внутренняя образует многочисленные выступы и перегородки — кристы, имеющие"/><LineBreak/><Run Text="большую поверхность. На кристах и происходят процессы клеточного"/><LineBreak/><Run Text="дыхания, необходимые для синтеза АТФ."/></TextBlock>
+        <Button Content="Вперед" HorizontalAlignment="Left" Margin="80,390,0,0" VerticalAlignment="Top" Width="198"/>
+        <Button Content="Назад" HorizontalAlignment="Left" Margin="497,390,0,0" VerticalAlignment="Top" Width="198"/>
+
+    </Grid>
+</Page>

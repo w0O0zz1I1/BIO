@@ -9,13 +9,23 @@
       Title="MainPage">
 
     <Grid>
-            <Button Content="Глава 1" HorizontalAlignment="Left" Margin="74,71,0,0" VerticalAlignment="Top" Width="222" Click="Button_Click"/>
-            <Button Content="Галава 2" HorizontalAlignment="Left" Margin="74,120,0,0" VerticalAlignment="Top" Width="222"/>
-            <Button Content="Глава 3" HorizontalAlignment="Left" Margin="74,177,0,0" VerticalAlignment="Top" Width="222"/>
-            <Button Content="Глава 4" HorizontalAlignment="Left" Margin="74,225,0,0" VerticalAlignment="Top" Width="222"/>
-            <Button Content="Глава 1" HorizontalAlignment="Left" Margin="358,225,0,0" VerticalAlignment="Top" Width="222"/>
-            <Button Content="Глава 7" HorizontalAlignment="Left" Margin="358,225,0,0" VerticalAlignment="Top" Width="222"/>
-            <Button Content="Глава 6" HorizontalAlignment="Left" Margin="358,177,0,0" VerticalAlignment="Top" Width="222"/>
-            <Button Content="Глава 5" HorizontalAlignment="Left" Margin="358,120,0,0" VerticalAlignment="Top" Width="222"/>
+        <Button Content="Глава 1" HorizontalAlignment="Left" Margin="63,48,0,0" VerticalAlignment="Top" Width="222" Click="Button_Click"/>
+        <Button Content="Галава 2" HorizontalAlignment="Left" Margin="63,86,0,0" VerticalAlignment="Top" Width="222"/>
+        <Button Content="Глава 3" HorizontalAlignment="Left" Margin="63,126,0,0" VerticalAlignment="Top" Width="222"/>
+        <Button Content="Глава 4" HorizontalAlignment="Left" Margin="63,168,0,0" VerticalAlignment="Top" Width="222"/>
+        <Button Content="Глава 8" HorizontalAlignment="Left" Margin="63,351,0,0" VerticalAlignment="Top" Width="222"/>
+        <Button Content="Глава 7" HorizontalAlignment="Left" Margin="63,307,0,0" VerticalAlignment="Top" Width="222"/>
+        <Button Content="Глава 6" HorizontalAlignment="Left" Margin="63,263,0,0" VerticalAlignment="Top" Width="222"/>
+        <Button Content="Глава 5" HorizontalAlignment="Left" Margin="63,0,0,0" VerticalAlignment="Center" Width="222"/>
+        <Button Content="Глава 9" HorizontalAlignment="Left" Margin="63,386,0,0" VerticalAlignment="Top" Width="222"/>
+        <Button Content="Глава 10" HorizontalAlignment="Left" Margin="463,48,0,0" VerticalAlignment="Top" Width="222" Click="Button_Click"/>
+        <Button Content="Галава 11" HorizontalAlignment="Left" Margin="463,86,0,0" VerticalAlignment="Top" Width="222"/>
+        <Button Content="Глава 12" HorizontalAlignment="Left" Margin="463,126,0,0" VerticalAlignment="Top" Width="222"/>
+        <Button Content="Глава 13" HorizontalAlignment="Left" Margin="463,168,0,0" VerticalAlignment="Top" Width="222"/>
+        <Button Content="Глава 14" HorizontalAlignment="Left" Margin="463,351,0,0" VerticalAlignment="Top" Width="222"/>
+        <Button Content="Глава 15" HorizontalAlignment="Left" Margin="463,307,0,0" VerticalAlignment="Top" Width="222"/>
+        <Button Content="Глава 16" HorizontalAlignment="Left" Margin="463,263,0,0" VerticalAlignment="Top" Width="222"/>
+        <Button Content="Глава 17" HorizontalAlignment="Left" Margin="463,0,0,0" VerticalAlignment="Center" Width="222"/>
+        <Button Content="Глава 18" HorizontalAlignment="Left" Margin="463,386,0,0" VerticalAlignment="Top" Width="222"/>
     </Grid>
 </Page>

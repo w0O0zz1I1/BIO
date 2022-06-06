@@ -1,0 +1,17 @@
+﻿<Page x:Class="BIO.Part4.Part4Page2"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:BIO.Part4"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Part4Page2">
+
+    <Grid>
+        <TextBlock HorizontalAlignment="Center" Margin="0,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="200" Width="780" FontSize="16"><Run Text="Этапы энергетического обмена. Большинство живых существ, обитающих на Земле, относятся к аэробам, т. е. используют в процессах"/><LineBreak/><Run Text="обмена веществ кислород из окружающей среды. У аэробов энергетический обмен происходит в три этапа: подготовительный, бескислородный и кислородный. В результате этого органические вещества распадаются до простейших неорганических соединений."/><LineBreak/><Run Text="У организмов, обитающих в бескислородной среде и не нуждающихся"/><LineBreak/><Run Text="в кислороде, — анаэробов, а также у аэробов при недостатке кислорода диссимиляция происходит в два этапа: подготовительный и бескислородный. В двухэтапном варианте энергетического обмена энергии запасается гораздо меньше, чем в трехэтапном."/></TextBlock>
+        <Button Content="Вперед" HorizontalAlignment="Left" Margin="86,371,0,0" VerticalAlignment="Top" Width="198"/>
+        <Button Content="Назад" HorizontalAlignment="Left" Margin="503,371,0,0" VerticalAlignment="Top" Width="198"/>
+
+    </Grid>
+</Page>

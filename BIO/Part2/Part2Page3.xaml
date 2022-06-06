@@ -1,0 +1,29 @@
+﻿<Page x:Class="BIO.Part2.Part2Page3"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:BIO.Part2"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Part2Page3">
+
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="82" Width="495"><Run Text="5. Самовоспроизведение репродукция). Способность к самовоспроизведению является важнейшим свойством всех живых организмов. В ее основе лежит информация о строении и функциях любого живого организма, заложенная в нуклеиновых кислотах и обеспечивающая специфичность структуры и жизнедеятельности живого."/><LineBreak/><Run/></TextBlock>
+        <TextBlock HorizontalAlignment="Center" Margin="0,84,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="780"><Run Language="ru-ru" Text="6. "/><Run Text="Саморегуляция. Любой живой организм подвергается воздействию непрерывно меняющихся условий окружающей среды. В то же"/><LineBreak/><Run Text="время для протекания процессов жизнедеятельности в клетках необходимы определенные условия. Благодаря механизмам саморегуляции"/><LineBreak/><Run Text="сохраняется относительное постоянство внутренней среды организма,"/><LineBreak/><Run Text="т. е. поддерживается постоянство химического состава и интенсивность"/><LineBreak/><Run Text="течения физиологических процессов (иными словами, поддерживается"/><LineBreak/><Run Text="гомеостаз: от греч. homoios — одинаковый и stasis — состояние)."/></TextBlock>
+        <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Center" Width="780" RenderTransformOrigin="0.5,0.5" Height="58">
+            <TextBlock.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="0"/>
+                    <RotateTransform/>
+                    <TranslateTransform X="0"/>
+                </TransformGroup>
+            </TextBlock.RenderTransform><Run Language="ru-ru" Text="7. "/><Run Text="Развити"/><Run Language="ru-ru" Text="е"/><Run Text="  и рост. В процессе индивидуального развития (онтогенеза) постепенно и последовательно проявляются индивидуальные"/><LineBreak/><Run Text="свойства организма и осуществляется его рост. Кроме того, все живые"/><LineBreak/><Run Text="системы эволюцион"/></TextBlock>
+        <TextBlock HorizontalAlignment="Center" Margin="0,259,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="780" Height="38"><Run Language="ru-ru" Text="8"/><Run Text=". Раздраж имость. Любой живой организм способен избирательно реагировать на внешние и внутренние воздействия."/></TextBlock>
+        <TextBlock HorizontalAlignment="Center" Margin="0,297,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="780"><Run Language="ru-ru" Text="9. "/><Run Text="Наследственность и изменчивость. Преемственность поколений обеспечивается наследственностью. Потомки не являются копиям и своих родителей из-за способности наследственной информации к изменениям — изменчивости."/></TextBlock>
+        <Button Content="Вперед" HorizontalAlignment="Left" Margin="67,392,0,0" VerticalAlignment="Top" Width="246"/>
+        <Button Content="Назад" HorizontalAlignment="Left" Margin="455,392,0,0" VerticalAlignment="Top" Width="246"/>
+
+    </Grid>
+</Page>

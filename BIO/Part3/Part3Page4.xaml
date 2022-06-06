@@ -1,0 +1,17 @@
+﻿<Page x:Class="BIO.Part3.Part3Page4"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:BIO.Part3"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Part3Page4">
+
+    <Grid>
+        <TextBlock HorizontalAlignment="Center" Margin="0,20,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="367" Width="780" FontSize="15"><Run Text="Комплекс (аппарат) Гольджи. Система внутриклеточных цистерн,"/><LineBreak/><Run Text="в которых накапливаются вещества, синтезированные клеткой, носит"/><LineBreak/><Run Text="название комплекса (аппарата) Гольджи. Здесь же эти вещества претерпевают дальнейшие биохимические превращения, упаковываются в мембранные пузырьки и переносятся в те места цитоплазмы, где"/><LineBreak/><Run Text="они необходимы, или же транспортируются к клеточной мембране и"/><LineBreak/><Run Text="выходят за пределы клетки. Комплекс Гольджи построен из мембран и расположен рядом с ЭПС, но не сообщается с ее каналами."/><LineBreak/><Run Text="Поэтому все вещества, синтезированные на мембранах ЭПС, переносятся в комплекс Гольджи внутри мембранных пузырьков, отпочковывающихся от ЭПС и сливающихся затем с комплексом Гольджи."/><LineBreak/><Run Text="Еще одна важная функция комплекса Гольджи — это сборка мембран"/><LineBreak/><Run Text="клетки. Вещества, из которых состоят мембраны (белки, липиды),"/><LineBreak/><Run Text="поступают в комплекс Гольджи из ЭПС, в полостях комплекса Гольджи собираются участки мембран, из которых изготовляются особые"/><LineBreak/><Run Text="мембранные пузырьки. Они передвигаются по цитоплазме в те места"/><LineBreak/><Run Text="клетки, где требуется достроить мембрану."/></TextBlock>
+        <Button Content="Вперед" HorizontalAlignment="Left" Margin="80,390,0,0" VerticalAlignment="Top" Width="198"/>
+        <Button Content="Назад" HorizontalAlignment="Left" Margin="497,390,0,0" VerticalAlignment="Top" Width="198"/>
+
+    </Grid>
+</Page>

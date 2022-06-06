@@ -1,0 +1,18 @@
+﻿<Page x:Class="BIO.Part3.Part3Page2"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:BIO.Part3"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Part3Page2">
+
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="173" Width="769" FontSize="16"><Run Text="Клеточный центр (центросома). Он расположен в цитоплазме вблизи от ядра и образован двумя цент риолям и — цилиндрами, расположенными перпендикулярно друг к другу (рис. 29). Диаметр каждой"/><LineBreak/><Run Text="центриоли 150—250 нм, а длина — 300— 500 нм. Стенка каждой центриоли состоит из девяти комплексов микротрубочек, а каждый комплекс (или триплет), в свою очередь, построен из трех микротрубочек. Триплеты центриоли соединены"/><LineBreak/><Run Text="между собой рядом связок. Основной белок, образующий центриоли, — тубулин."/><LineBreak/><Run/></TextBlock>
+        <Image Margin="101,147,147,65" Source="/Image9.png" Stretch="Fill"/>
+        <Button Content="Вперед" HorizontalAlignment="Left" Margin="85,408,0,0" VerticalAlignment="Top" Width="198"/>
+        <Button Content="Назад" HorizontalAlignment="Left" Margin="502,408,0,0" VerticalAlignment="Top" Width="198"/>
+
+    </Grid>
+</Page>

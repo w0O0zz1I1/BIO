@@ -1,0 +1,18 @@
+﻿<Page x:Class="BIO.Part3.Part3Page7"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:BIO.Part3"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Part3Page7">
+
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="31,24,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="181" Width="751" FontSize="16"><Run Text="Пластиды. Органоиды, характерные только для растительных клеток, — это пластиды. (Исключение составляют некоторые жгутиковые простейшие, такие как эвглена зеленая и вольвокс.) Так же как"/><LineBreak/><Run Text="митохондрии, они имеют двумембранную структуру и собственный"/><LineBreak/><Run Text="генетический аппарат. Пластиды подразделяют на хлоропласт ы, содержащие хлорофилл; хромопласты, содержащие красные, оранжевые и фиолетовые пигменты, и лейкопласт ы , бесцветные, выполняющие в основном запасающие функции. Под воздействием яркого"/><LineBreak/><Run Text="света лейкопласты начинают вырабатывать зеленый пигмент хлорофилл и становятся хлоропластами."/></TextBlock>
+        <TextBlock HorizontalAlignment="Right" Margin="0,205,18,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="751" Height="144" FontSize="16"><Run Text="Органоиды движения. Многие клетки способны к движению, причем механизмы двигательных реакций могут быть различными. Выделяют амебоидное (амебы, лейкоциты), ресничное (инфузориятуфелька, клетки мерцательного эпителия дыхательных путей),"/><LineBreak/><Run Text="жгутиковое (сперматозоиды, эвглена зеленая) и мышечное виды"/><Run Language="ru-ru" Text=" "/><Run Text="движения."/></TextBlock>
+        <Button Content="Вперед" HorizontalAlignment="Left" Margin="77,366,0,0" VerticalAlignment="Top" Width="198"/>
+        <Button Content="Назад" HorizontalAlignment="Left" Margin="494,366,0,0" VerticalAlignment="Top" Width="198"/>
+
+    </Grid>
+</Page>

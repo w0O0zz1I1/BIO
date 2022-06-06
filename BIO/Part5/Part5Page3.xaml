@@ -1,0 +1,16 @@
+﻿<Page x:Class="BIO.Part5.Part5Page3"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:BIO.Part5"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Part5Page3">
+
+    <Grid>
+        <TextBlock HorizontalAlignment="Center" Margin="0,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="126" Width="780" FontSize="16"><Run Text="Третий вид вегетативного размножения — почкование. В этом"/><LineBreak/><Run Text="случае группа клеток родительской особи начинает согласованно делиться, давая начало дочерней особи, которая некоторое время развивается как часть материнского организма, а затем отделяется от нег"/><Run Language="ru-ru" Text="о"/><Run Text=" (пресноводная гидра) или формирует колонии из многих особей (коралловые полипы)."/><LineBreak/><Run/></TextBlock>
+        <TextBlock HorizontalAlignment="Center" Margin="0,120,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="780" Height="243" FontSize="16"><Run Text="Значение бесполого размножения. Бесполое размножение позволяет быстро увеличивать численность особей данного вида в благоприятных условиях. Но при таком способе размножения все потомки имеют генотип, идентичный родительскому. Следовательно,"/><LineBreak/><Run Text="при бесполом размножении практически не происходит увеличения генетического разнообразия, которое могло бы оказаться очень"/><Run Language="ru-ru" Text=" "/><Run Text="полезным при необходимости приспособиться к изменившимся условиям обитания. По этой причине подавляющее большинство живых"/><Run Language="ru-ru" Text=" "/><Run Text="организмов периодически или постоянно размножаются половым"/><Run Text=" "/><Run Text="путем."/><LineBreak/><Run/></TextBlock>
+
+    </Grid>
+</Page>

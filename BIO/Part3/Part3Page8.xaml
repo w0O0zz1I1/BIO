@@ -1,0 +1,42 @@
+﻿<Page x:Class="BIO.Part3.Part3Page8"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:BIO.Part3"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Part3Page8">
+
+    <Grid>
+        <CheckBox x:Name="answer1" Content="4" HorizontalAlignment="Left" Margin="28,74,0,0" VerticalAlignment="Top" Width="120"/>
+        <CheckBox Content="3" HorizontalAlignment="Left" Margin="28,94,0,0" VerticalAlignment="Top" Width="120"/>
+        <CheckBox Content="5" HorizontalAlignment="Left" Margin="28,114,0,0" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="28,37,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="199"><Run Language="ru-ru" Text="Сколько выделяют групп механизмов движения клетки? "/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="28,149,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="220" RenderTransformOrigin="0.505,1.198"><Run Language="ru-ru" Text="Что является основой гиалоплазмы?"/></TextBlock>
+        <CheckBox Content="Клетка" HorizontalAlignment="Left" Margin="28,173,0,0" VerticalAlignment="Top" Width="120"/>
+        <CheckBox Content="Фотосинтез" HorizontalAlignment="Left" Margin="28,193,0,0" VerticalAlignment="Top" Width="120"/>
+        <CheckBox Content="Жгутик" HorizontalAlignment="Left" Margin="28,213,0,0" VerticalAlignment="Top" Width="120"/>
+        <CheckBox Content="Питетльные вещества" HorizontalAlignment="Left" Margin="28,253,0,0" VerticalAlignment="Top" Width="120"/>
+        <CheckBox x:Name="answer2" Content="Вода" HorizontalAlignment="Left" Margin="28,233,0,0" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="28,299,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="267"><Run Language="ru-ru" Text="Как называется белок образующий центриоли?"/></TextBlock>
+        <CheckBox x:Name="answer3" Content="тубулин" HorizontalAlignment="Left" Margin="28,330,0,0" VerticalAlignment="Top" Width="120"/>
+        <CheckBox Content="Хромопротеины" HorizontalAlignment="Left" Margin="28,350,0,0" VerticalAlignment="Top" Width="120"/>
+        <CheckBox Content="Металлопротеины" HorizontalAlignment="Left" Margin="28,370,0,0" VerticalAlignment="Top" Width="120"/>
+        <CheckBox Content="Фосфопротеины" HorizontalAlignment="Left" Margin="28,410,0,0" VerticalAlignment="Top" Width="120"/>
+        <CheckBox Content="Лейкоциты" HorizontalAlignment="Left" Margin="28,390,0,0" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="412,56,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="295"><Run Language="ru-ru" Text="В каком формате клетки запасают энергию"/></TextBlock>
+        <CheckBox x:Name="answer4" Content="АТФ" HorizontalAlignment="Left" Margin="412,90,0,0" VerticalAlignment="Top" Width="245"/>
+        <CheckBox Content="ТАФ" HorizontalAlignment="Left" Margin="412,110,0,0" VerticalAlignment="Top" Width="120"/>
+        <CheckBox Content="АФТ" HorizontalAlignment="Left" Margin="412,130,0,0" VerticalAlignment="Top" Width="245"/>
+        <CheckBox Content="ФАТ" HorizontalAlignment="Left" Margin="412,150,0,0" VerticalAlignment="Top" Width="245"/>
+        <Button Content="Отправить результаты" HorizontalAlignment="Left" Margin="426,325,0,0" VerticalAlignment="Top" Width="145" Click="Button_Click"/>
+        <TextBlock x:Name="resultTestTextBox" HorizontalAlignment="Left" Margin="607,325,0,0" TextWrapping="Wrap" Text="Оценка" VerticalAlignment="Top" Width="100"/>
+        <Button Content="На главную" HorizontalAlignment="Left" Margin="426,410,0,0" VerticalAlignment="Top" Width="145" Click="Button_Click_1"/>
+        <TextBlock HorizontalAlignment="Left" Margin="412,184,0,0" TextWrapping="Wrap" Text= "На сколько групп делят пластиды?" VerticalAlignment="Top" Width="310"/>
+        <CheckBox x:Name="answer5" Content="3" HorizontalAlignment="Left" Margin="412,221,0,0" VerticalAlignment="Top" Width="120"/>
+        <CheckBox Content="4" HorizontalAlignment="Left" Margin="412,241,0,0" VerticalAlignment="Top" Width="120"/>
+        <CheckBox Content="5" HorizontalAlignment="Left" Margin="412,261,0,0" VerticalAlignment="Top" Width="120"/>
+
+    </Grid>
+</Page>

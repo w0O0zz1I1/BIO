@@ -9,10 +9,10 @@
       Title="Part1Page5">
 
     <Grid>
-        <CheckBox x:Name="answer1" Content="3" HorizontalAlignment="Left" Margin="28,51,0,0" VerticalAlignment="Top" Width="120"/>
-        <CheckBox Content="4" HorizontalAlignment="Left" Margin="28,71,0,0" VerticalAlignment="Top" Width="120"/>
-        <CheckBox Content="2" HorizontalAlignment="Left" Margin="28,91,0,0" VerticalAlignment="Top" Width="120"/>
-        <TextBlock HorizontalAlignment="Left" Margin="28,14,0,0" TextWrapping="Wrap" Text="На сколько групп делятся элементы в живых оргазмах" VerticalAlignment="Top" Width="199"/>
+        <CheckBox x:Name="answer1" Content="3" HorizontalAlignment="Left" Margin="28,74,0,0" VerticalAlignment="Top" Width="120"/>
+        <CheckBox Content="4" HorizontalAlignment="Left" Margin="28,94,0,0" VerticalAlignment="Top" Width="120"/>
+        <CheckBox Content="2" HorizontalAlignment="Left" Margin="28,114,0,0" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="28,37,0,0" TextWrapping="Wrap" Text="На сколько групп делятся элементы в живых оргазмах" VerticalAlignment="Top" Width="199"/>
         <TextBlock HorizontalAlignment="Left" Margin="28,130,0,0" TextWrapping="Wrap" Text="Сколько % воды содержитса в клетказ" VerticalAlignment="Top" Width="199"/>
         <CheckBox Content="90%" HorizontalAlignment="Left" Margin="28,173,0,0" VerticalAlignment="Top" Width="120"/>
         <CheckBox Content="40%" HorizontalAlignment="Left" Margin="28,193,0,0" VerticalAlignment="Top" Width="120"/>
@@ -25,17 +25,17 @@
         <CheckBox Content="Медь" HorizontalAlignment="Left" Margin="28,370,0,0" VerticalAlignment="Top" Width="120"/>
         <CheckBox Content="Азот" HorizontalAlignment="Left" Margin="28,410,0,0" VerticalAlignment="Top" Width="120"/>
         <CheckBox Content="Калий" HorizontalAlignment="Left" Margin="28,390,0,0" VerticalAlignment="Top" Width="120"/>
-        <TextBlock HorizontalAlignment="Left" Margin="412,13,0,0" TextWrapping="Wrap" Text="Выберете неорганическийй элемент" VerticalAlignment="Top" Width="199"/>
-        <CheckBox x:Name="answer4" Content="Вода" HorizontalAlignment="Left" Margin="412,58,0,0" VerticalAlignment="Top" Width="120"/>
-        <CheckBox Content="Белки" HorizontalAlignment="Left" Margin="412,78,0,0" VerticalAlignment="Top" Width="120"/>
-        <CheckBox Content="Лепиды" HorizontalAlignment="Left" Margin="412,98,0,0" VerticalAlignment="Top" Width="120"/>
-        <CheckBox Content="Углеводы" HorizontalAlignment="Left" Margin="412,118,0,0" VerticalAlignment="Top" Width="120"/>
-        <Button Content="Отправить результаты" HorizontalAlignment="Left" Margin="426,285,0,0" VerticalAlignment="Top" Width="145" Click="Button_Click"/>
-        <TextBlock x:Name="resultTestTextBox" HorizontalAlignment="Left" Margin="607,285,0,0" TextWrapping="Wrap" Text="Оценка" VerticalAlignment="Top" Width="100"/>
-        <Button Content="На главную" HorizontalAlignment="Left" Margin="426,370,0,0" VerticalAlignment="Top" Width="145" Click="Button_Click_1"/>
-        <TextBlock HorizontalAlignment="Left" Margin="412,144,0,0" TextWrapping="Wrap" Text= "В какой группе количество элементов составляет до 0,001% массы тела" VerticalAlignment="Top" Width="310"/>
-        <CheckBox x:Name="answer5" Content="макроэлементы" HorizontalAlignment="Left" Margin="412,181,0,0" VerticalAlignment="Top" Width="120"/>
-        <CheckBox Content="микроэлементы" HorizontalAlignment="Left" Margin="412,201,0,0" VerticalAlignment="Top" Width="120"/>
-        <CheckBox Content="ультрамикроэлементы" HorizontalAlignment="Left" Margin="412,221,0,0" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="412,45,0,0" TextWrapping="Wrap" Text="Выберете неорганическийй элемент" VerticalAlignment="Top" Width="199"/>
+        <CheckBox x:Name="answer4" Content="Вода" HorizontalAlignment="Left" Margin="412,90,0,0" VerticalAlignment="Top" Width="120"/>
+        <CheckBox Content="Белки" HorizontalAlignment="Left" Margin="412,110,0,0" VerticalAlignment="Top" Width="120"/>
+        <CheckBox Content="Лепиды" HorizontalAlignment="Left" Margin="412,130,0,0" VerticalAlignment="Top" Width="120"/>
+        <CheckBox Content="Углеводы" HorizontalAlignment="Left" Margin="412,150,0,0" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Отправить результаты" HorizontalAlignment="Left" Margin="426,325,0,0" VerticalAlignment="Top" Width="145" Click="Button_Click"/>
+        <TextBlock x:Name="resultTestTextBox" HorizontalAlignment="Left" Margin="607,325,0,0" TextWrapping="Wrap" Text="Оценка" VerticalAlignment="Top" Width="100"/>
+        <Button Content="На главную" HorizontalAlignment="Left" Margin="426,410,0,0" VerticalAlignment="Top" Width="145" Click="Button_Click_1"/>
+        <TextBlock HorizontalAlignment="Left" Margin="412,184,0,0" TextWrapping="Wrap" Text= "В какой группе количество элементов составляет до 0,001% массы тела" VerticalAlignment="Top" Width="310"/>
+        <CheckBox x:Name="answer5" Content="макроэлементы" HorizontalAlignment="Left" Margin="412,221,0,0" VerticalAlignment="Top" Width="120"/>
+        <CheckBox Content="микроэлементы" HorizontalAlignment="Left" Margin="412,241,0,0" VerticalAlignment="Top" Width="120"/>
+        <CheckBox Content="ультрамикроэлементы" HorizontalAlignment="Left" Margin="412,261,0,0" VerticalAlignment="Top" Width="120"/>
     </Grid>
 </Page>

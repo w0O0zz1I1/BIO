@@ -8,8 +8,7 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <Image Height="262" Margin="10,10,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="395" Source="/scale_1200.jpg"/>
-        <Label Content="Электронное пособие по биологии" HorizontalAlignment="Left" Margin="466,79,0,0" VerticalAlignment="Top" Width="268" Height="32" FontSize="15"/>
-        <Label Content="Автор: " HorizontalAlignment="Left" Margin="466,134,0,0" VerticalAlignment="Top" Width="268" Height="32" FontSize="15"/>
+        <Label Content="Электронное пособие&#xD;&#xA;         по биологии" HorizontalAlignment="Left" Margin="368,90,0,0" VerticalAlignment="Top" Width="381" Height="138" FontSize="36" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
         <Button Content="Начать" HorizontalAlignment="Center" Margin="0,316,0,0" VerticalAlignment="Top" Width="480" Height="61" Click="Button_Click"/>
 
     </Grid>

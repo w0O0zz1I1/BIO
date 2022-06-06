@@ -1,0 +1,21 @@
+﻿<Page x:Class="BIO.Part2.Part2Page2"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:BIO.Part2"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Part2Page2">
+
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="262,10,0,0" TextWrapping="Wrap" Text="Свойства живого" VerticalAlignment="Top" Width="246" Height="48" FontWeight="Bold" FontSize="16" TextAlignment="Center"/>
+        <TextBlock HorizontalAlignment="Left" Margin="20,58,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="770" Height="61"><Run Text="1. Единство химического состава. Живые существа образованы"/><LineBreak/><Run Text="теми же химическими элементами, что и неживые объекты, но в ж ивых существах 90% массы приходится на четыре элемента: С, О, N, Н,"/><LineBreak/><Run Text="которые участвуют в образовании сложных органических молекул, таких, как белки, нуклеиновые кислоты, углеводы, липиды."/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="20,139,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="770" Height="78"><Run Text="2. Единство структурной организации. Клетка является единой структурно-функциональной единицей, а также единицей развития почти для всех живых организмов на Земле. Исключением являются вирусы, но и у них свойства живого проявляются, лишь когда"/><LineBreak/><Run Text="они находятся в клетке. Вне клетки жизни нет."/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="20,205,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="770" Height="85"><Run Text="3. Открытость. Все живые организмы представляют собой от ­"/><Run Text="рытые сис"/><Run Language="ru-ru" Text="т"/><Run Text="емы , т. е. системы, устойчивые лишь при условии непрерывного поступления в них энергии и вещества из окружающей"/><Run Language="ru-ru" Text=" "/><Run Text="среды."/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="20,260,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="770" Height="116"><Run Text="4. Обмен веществ и энергии. Все живые организмы способны к"/><LineBreak/><Run Text="обмену веществ с окружающей средой. Обмен веществ осуществляется в результате двух взаимосвязанных процессов: синтеза органических веществ в организме (за счет внешних источников энергии —"/><LineBreak/><Run Text="света и пищи) и процесса распада сложных органических веществ"/><LineBreak/><Run Text="с выделением энергии, которая затем расходуется организмом."/><LineBreak/><Run Text="Обмен веществ обеспечивает постоянство химического состава в непрерывно меняющихся условиях окружающей среды."/></TextBlock>
+        <Button Content="Вперед" HorizontalAlignment="Left" Margin="67,392,0,0" VerticalAlignment="Top" Width="246"/>
+        <Button Content="Назад" HorizontalAlignment="Left" Margin="455,392,0,0" VerticalAlignment="Top" Width="246"/>
+
+    </Grid>
+</Page>

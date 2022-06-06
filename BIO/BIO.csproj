@@ -101,6 +101,98 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Part2\Part2Page1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Part2\Part2Page2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Part2\Part2Page3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Part2\Part2Page4.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Part3\Part3Page1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Part3\Part3Page2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Part3\Part3Page3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Part3\Part3Page4.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Part3\Part3Page5.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Part3\Part3Page6.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Part3\Part3Page7.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Part3\Part3Page8.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Part4\Part4Page1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Part4\Part4Page2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Part4\Part4Page3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Part5\Part5Page1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Part5\Part5Page2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Part5\Part5Page3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Part5\Part5Page6.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Part6\Part6Page1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Part6\Part6Page2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Part6\Part6Page3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Part6\Part6Page4.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Part1\Part1Page1.xaml.cs">
@@ -117,6 +209,75 @@
     </Compile>
     <Compile Include="Part1\Part1Page5.xaml.cs">
       <DependentUpon>Part1Page5.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Part2\Part2Page1.xaml.cs">
+      <DependentUpon>Part2Page1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Part2\Part2Page2.xaml.cs">
+      <DependentUpon>Part2Page2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Part2\Part2Page3.xaml.cs">
+      <DependentUpon>Part2Page3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Part2\Part2Page4.xaml.cs">
+      <DependentUpon>Part2Page4.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Part3\Part3Page1.xaml.cs">
+      <DependentUpon>Part3Page1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Part3\Part3Page2.xaml.cs">
+      <DependentUpon>Part3Page2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Part3\Part3Page3.xaml.cs">
+      <DependentUpon>Part3Page3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Part3\Part3Page4.xaml.cs">
+      <DependentUpon>Part3Page4.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Part3\Part3Page5.xaml.cs">
+      <DependentUpon>Part3Page5.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Part3\Part3Page6.xaml.cs">
+      <DependentUpon>Part3Page6.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Part3\Part3Page7.xaml.cs">
+      <DependentUpon>Part3Page7.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Part3\Part3Page8.xaml.cs">
+      <DependentUpon>Part3Page8.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Part4\Part4Page1.xaml.cs">
+      <DependentUpon>Part4Page1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Part4\Part4Page2.xaml.cs">
+      <DependentUpon>Part4Page2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Part4\Part4Page3.xaml.cs">
+      <DependentUpon>Part4Page3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Part5\Part5Page1.xaml.cs">
+      <DependentUpon>Part5Page1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Part5\Part5Page2.xaml.cs">
+      <DependentUpon>Part5Page2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Part5\Part5Page3.xaml.cs">
+      <DependentUpon>Part5Page3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Part5\Part5Page6.xaml.cs">
+      <DependentUpon>Part5Page6.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Part6\Part6Page1.xaml.cs">
+      <DependentUpon>Part6Page1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Part6\Part6Page2.xaml.cs">
+      <DependentUpon>Part6Page2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Part6\Part6Page3.xaml.cs">
+      <DependentUpon>Part6Page3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Part6\Part6Page4.xaml.cs">
+      <DependentUpon>Part6Page4.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
@@ -166,6 +327,24 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Image7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Part7\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
