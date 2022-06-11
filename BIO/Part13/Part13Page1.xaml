@@ -1,0 +1,18 @@
+﻿<Page x:Class="BIO.Part13.Part13Page1"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:BIO.Part13"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Part13Page1">
+
+    <Grid>
+        <TextBlock HorizontalAlignment="Center" Margin="0,40,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="266" Width="780" FontSize="16"><Run Text="&#x9;Макроэволюция — надвидовая эволюция, в отличие от микроэволюции, происходящей внутри вида, внутри его популяций. Однако принципиальных различий между этими процессами нет, так как в основе макроэволюционных процессов лежат микроэволюционные. В макроэволюции действуют те же факторы — борьба засуществование, естественный отбор и связанное с ним вымирание."/><LineBreak/><Run Text="Макроэволюция, так же как микроэволюция, носит дивергентный характер."/><LineBreak/><Run Text="&#x9;Макроэволюция происходит в исторически грандиозные промежутки времени, поэтому она недоступна непосредственному изучению. Несмотря на это, наука располагает множеством доказательств, свидетельствующих о реальности макроэволюционных процессов."/><LineBreak/><Run Text="&#x9;Данные палеонтологии дают большой материал о преемственных"/><LineBreak/><Run Text="связях между различными систематическими группами. В одних случаях удалось установить переходные формы между древнейшими и современными группами организмов, в других — реконструировать"/><LineBreak/><Run Text="филогенетические ряды , т. е. ряды видов, последовательно сменяющих один другой."/><LineBreak/><Run/></TextBlock>
+        <Button Content="Вперед" HorizontalAlignment="Left" Margin="82,381,0,0" VerticalAlignment="Top" Width="198" Click="Button_Click"/>
+        <Button Content="Назад" HorizontalAlignment="Left" Margin="504,381,0,0" VerticalAlignment="Top" Width="198" Click="Button_Click_1"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0,408,0,0" TextWrapping="Wrap" Text="38 стр." VerticalAlignment="Top" Foreground="#FFB1ABAB"/>
+
+    </Grid>
+</Page>

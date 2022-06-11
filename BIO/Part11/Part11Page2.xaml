@@ -1,0 +1,18 @@
+﻿<Page x:Class="BIO.Part11.Part11Page2"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:BIO.Part11"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Part11Page2">
+
+    <Grid>
+        <TextBlock HorizontalAlignment="Center" Margin="0,29,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="330" Width="780" FontSize="16"><Run Text="&#x9;Основные методы селекции. К методам селекции традиционно относят от бор, гибридизацию , мутагенез. Во второй половине XX в. стали применять принципиально новые методы экспериментальной"/><LineBreak/><Run Text="биологии — клеточную и генную инженерию . Это направление легло в основу новой области биологии — биотехнологии."/><LineBreak/><Run Text="&#x9;Биотехнология — это промышленное использование биологических процессов и систем на основе получения высокоэффективных форм микроорганизмов, культур клеток и тканей растений и животных с заданными свойствами."/><LineBreak/><Run Text="&#x9;При методическом от боре человек сознательно систематически отбирает представителей с определенными качествами и стремится к выведению нового сорта или породы."/><LineBreak/><Run Text="&#x9;При индивидуальном от боре выделяют единичные особи с ценными качествами и отдельно выращивают их потомство. При последующем самоопылении у растений или близкородственных скрещиваниях у животных выводят чистые линии. Чистая линия — группа генетически однородных (гомозиготных) организмов, представляющих ценный исходный материал для селекции."/><LineBreak/><Run/><LineBreak/><Run/><LineBreak/><Run Text="&#x9;"/></TextBlock>
+        <Button Content="Вперед" HorizontalAlignment="Left" Margin="109,377,0,0" VerticalAlignment="Top" Width="199" RenderTransformOrigin="0.618,0.601" Click="Button_Click"/>
+        <Button Content="Назад" HorizontalAlignment="Left" Margin="490,377,0,0" VerticalAlignment="Top" Width="199" Click="Button_Click_1"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0,408,0,0" TextWrapping="Wrap" Text="30 стр." VerticalAlignment="Top" Foreground="#FFB1ABAB"/>
+
+    </Grid>
+</Page>

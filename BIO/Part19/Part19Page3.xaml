@@ -1,0 +1,18 @@
+﻿<Page x:Class="BIO.Part19.Part19Page3"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:BIO.Part19"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Part19Page3">
+
+    <Grid>
+        <TextBlock HorizontalAlignment="Center" Margin="0,46,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="278" Width="780" FontSize="18"><Run Text="&#x9;С момента развития промышленности до настоящего времени, в связи с активным использованием природных ресурсов и нарушением"/><LineBreak/><Run Text="сложившегося в природе равновесия, процессы разрушения в биосфере стали преобладать над процессами созидания, причем эти тенденции становятся все более выраженными. Биосфера вновь находится"/><LineBreak/><Run Text="на грани экологического кризиса. Его последствия могут быть катастрофическими для человечества."/><LineBreak/><Run Text="&#x9;Мировое сообщество серьезно обеспокоено нарушениями в биосфере, к которым приводит непродуманная деятельность человека. Для "/><Run Text="их ликвидации принят целый ряд международных соглашений, которые должны уменьшить выброс в атмосферу вредных веществ, защ итить от загрязнения почву и водоемы."/><LineBreak/><Run/></TextBlock>
+        <Button Content="Вперед" HorizontalAlignment="Left" Margin="85,370,0,0" VerticalAlignment="Top" Width="199" RenderTransformOrigin="0.618,0.601" Click="Button_Click"/>
+        <Button Content="Назад" HorizontalAlignment="Left" Margin="466,370,0,0" VerticalAlignment="Top" Width="199" Click="Button_Click_1"/>
+        <TextBlock HorizontalAlignment="Left" Margin="378,415,0,0" TextWrapping="Wrap" Text="56 стр." VerticalAlignment="Top" Foreground="#FFB1ABAB"/>
+
+    </Grid>
+</Page>

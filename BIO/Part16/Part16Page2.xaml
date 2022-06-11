@@ -1,0 +1,20 @@
+﻿<Page x:Class="BIO.Part16.Part16Page2"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:BIO.Part16"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Part16Page2">
+
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="10,15,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="106"><Run Text="&#x9;Предшественники человека. "/><LineBreak/><Run Text="&#x9;Наиболее ранними представителями семейства гоминид считаются австралопитековые (лат. australis — южный и греч. pithecos — обезьяна). Наиболее древние находки австралопитековых найденные в Восточной Африке, датируются 4 ,5 —6,5 млн лет. Изучение остатков скелета этих существ показало, что их зубы почти сходны с человеческими, объем головного мозга достигал более 500 см3, а масса тела составляла 35—55 кг. Они обладали способностью к прямохождению (рис. 107). От них произошли несколько видов более поздних австралопитеков, отличавшихся размерами, массой тела, особенностями в строении черепа."/></TextBlock>
+        <Image Margin="10,121,470,88" Source="/Image16.png" Stretch="Fill"/>
+        <TextBlock HorizontalAlignment="Left" Margin="335,116,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="455" Height="87"><Run Text="&#x9;Древнейшие люди. "/><LineBreak/><Run Text="&#x9;Первыми представителями рода Homo, по мнению большинства специалистов, был прогрессивный вариант австралопитека — Человек умелый (Н. habilis). Это название связано с тем, что эти существа умели изготовлять примитивные режущие и рубящие орудия из гальки."/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="335,203,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="455" Height="159" Text="&#x9;К настоящему времени известно несколько ископаемых форм архантропов: питекантроп (обезьяночеловек), его останки были обнаружены на острове Ява; синантроп , его останки были обнаружены в пещере близ г. Пекина. Останки ископаемых людей, сходных с питекантропами и синантропами, были обнаружены на территории ФРГ (гейдельбергский человек), Алжира (атлантроп) и многих других стран. Судя по археологическим находкам, популяции архантропов обитали в различных районах земного шара приблизительно от 2 млн до 200 тыс. лет назад. Ученые считают, что все они относились к одному виду — Человек прямоходящий (Н. erectus)."/>
+        <Button Content="Вперед" HorizontalAlignment="Left" Margin="84,401,0,0" VerticalAlignment="Top" Width="198" Click="Button_Click" />
+        <Button Content="Назад" HorizontalAlignment="Left" Margin="507,401,0,0" VerticalAlignment="Top" Width="198" Click="Button_Click_1" />
+        <TextBlock HorizontalAlignment="Left" Margin="378,415,0,0" TextWrapping="Wrap" Text="41 стр." VerticalAlignment="Top" Foreground="#FFB1ABAB"/>
+    </Grid>
+</Page>

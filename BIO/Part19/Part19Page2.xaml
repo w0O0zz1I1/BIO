@@ -1,0 +1,18 @@
+﻿<Page x:Class="BIO.Part19.Party19Page2"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:BIO.Part19"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Party19Page2">
+
+    <Grid>
+        <TextBlock HorizontalAlignment="Center" Margin="0,44,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="316" Width="780" FontSize="14"><Run Text="&#x9;Роль процессов фотосинтеза и дыхания. Высокое содержание метана могло сохраняться до тех пор, пока в земной атмосфере было значительное количество водорода. Когда же запасы газообразного водорода истощились, метанообразующие бактерии уж е не могли перерабатывать углекислый газ в метан и таким образом лишились"/><LineBreak/><Run Text="источника энергии для синтеза собственных питательных веществ."/><LineBreak/><Run Text="Для обеспечения условий существования живых организмов необходима была новая форма обмена веществ и получения энергии. Ею стал фотосинтез. У первых фотосинтезирующих микроорганизмов фотосинтез протекал без выделения кислорода"/><LineBreak/><Run Text="&#x9;Около 2,5 млн лет назад появились первые люди — далекие предки современного человека."/><LineBreak/><Run Text="Вначале они были охотниками и собирателями. Однако в связи"/><LineBreak/><Run Text="с усовершенствованием орудий охоты человек современного анатомического типа весьма быстро, вероятно всего за два-три тысячелетия, истребил крупных копытных и мамонтов — основу своего пищевого"/><LineBreak/><Run Text="рациона того времени. Охота не могла уже обеспечить пропитание людей. Человек оказался на грани голодной смерти и был обречен на вымирание. Он мог бы и совсем исчезнуть с лица планеты, как исчезли"/><LineBreak/><Run Text="многие биологические виды, например саблезубые тигры и мамонты. Но этого не произошло, потому что примерно 10 тыс. лет назад человек перешел к земледелию, а несколько позднее и скотоводству, т. е. люди преодолели первый в истории человечества экологический кризис, возникший в результате их деятельности."/></TextBlock>
+        <Button Content="Вперед" HorizontalAlignment="Left" Margin="94,386,0,0" VerticalAlignment="Top" Width="199" RenderTransformOrigin="0.618,0.601" Click="Button_Click"/>
+        <Button Content="Назад" HorizontalAlignment="Left" Margin="475,386,0,0" VerticalAlignment="Top" Width="199" Click="Button_Click_1"/>
+        <TextBlock HorizontalAlignment="Left" Margin="378,415,0,0" TextWrapping="Wrap" Text="55 стр." VerticalAlignment="Top" Foreground="#FFB1ABAB"/>
+
+    </Grid>
+</Page>

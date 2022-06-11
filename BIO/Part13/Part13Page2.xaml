@@ -1,0 +1,18 @@
+﻿<Page x:Class="BIO.Part13.Part13Page2"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:BIO.Part13"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Part13Page2">
+
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="10,32,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="291" Width="753" FontSize="16"><Run Text="&#x9;По мере развития сходство между зародышами ослабевает, все более четко проявляются черты тех классов, к которым они принадлежат. У ящерицы, кролика и человека зарастают жаберные карманы; у зародыша человека особенно сильно развивается головной отдел, включающий мозг, формируются пятипалые конечности, а у зародышей рыбы — плавники. "/><LineBreak/><Run Text="&#x9;По мере эмбрионального развития последовательно происходит расхождение признаков зародышей, приобретающих черты, характеризующие класс, отряд, род и, наконец, вид, к которому они принадлежат."/><LineBreak/><Run Language="ru-ru" Text="&#x9;Микроэволюция – это совокупность процессов, происходящих в популяциях и приводящих к образованию новых видов. Элементарной единицей эволюции является популяция."/><LineBreak/><Run Language="ru-ru" Text="&#x9;Движущими факторами эволюции являются элементарные эволюционные факторы, действующие на популяцию: мутационный процесс, изоляция, популяционные волны и естественный отбор. Они приводят к элементарному эволюционному явлению: изменению генофонда популяции."/></TextBlock>
+        <Button Content="Вперед" HorizontalAlignment="Left" Margin="79,355,0,0" VerticalAlignment="Top" Width="198" Click="Button_Click"/>
+        <Button Content="Назад" HorizontalAlignment="Left" Margin="501,355,0,0" VerticalAlignment="Top" Width="198" Click="Button_Click_1"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0,410,0,0" TextWrapping="Wrap" Text="39 стр." VerticalAlignment="Top" Foreground="#FFB1ABAB"/>
+
+    </Grid>
+</Page>

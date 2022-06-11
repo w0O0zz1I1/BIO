@@ -1,0 +1,18 @@
+﻿<Page x:Class="BIO.Part9.Part9Page2"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:BIO.Part9"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Part9Page2">
+
+    <Grid>
+        <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" Height="322" Width="780" FontSize="16" Margin="0,26,0,0"><Run Text="&#x9;Правило единообразия гибридов первого поколения. Г. Мендель"/><LineBreak/><Run Text="начал свои исследования со скрещивания растений гороха, исходно отличающихся только цветом горошин (желтым или зеленым)."/><LineBreak/><Run Text="&#x9;В первом поколении семена у всех растений оказались исключительно желтыми. Когда Г. Мендель повторил свои опыты по моногибридному скрещиванию, но использовал в них растения, отличающиеся друг от друга по другому признаку, по форме семян (гладкие или"/><LineBreak/><Run Text="морщинистые), то все гибридные растения первого поколения имели"/><LineBreak/><Run Text="гладкие семена. Проявляющиеся у гибридов признаки (желтизну или гладкость семян) Мендель назвал доминантными , а подавляемые признаки (зеленый цвет или морщинистую форму семян) —рецессивными . Доминантный признак принято обозначать прописными латинскими буквами (А, В , С), а рецессивные — строчными (а, b, с)."/><LineBreak/><Run Text="&#x9;"/><Run Language="ru-ru" Text="П"/><Run Text="равило единообразия гибридовпервого поколения : при"/><Run Text=" "/><Run Text="скрещивании двух гомозиготных "/><LineBreak/><Run Text="организмов, отличающихся друг от друга одним признаком , все гибриды первого поколения будут "/><LineBreak/><Run Text="иметь признак одного изродителей ,и поколение по данному признаку будет единообразным ."/></TextBlock>
+        <Button Content="Вперед" HorizontalAlignment="Left" Margin="128,392,0,0" VerticalAlignment="Top" Width="184" Click="Button_Click"/>
+        <Button Content="Назад" HorizontalAlignment="Left" Margin="539,392,0,0" VerticalAlignment="Top" Width="184" Click="Button_Click_1"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0,402,0,0" TextWrapping="Wrap" Text="26 стр." VerticalAlignment="Top" Foreground="#FFB1ABAB"/>
+
+    </Grid>
+</Page>

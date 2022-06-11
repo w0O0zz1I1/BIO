@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:BIO"
         mc:Ignorable="d"
-        Title="MainMenu" Height="450" Width="800">
-    <Grid Margin="0,38,0,0">
-        <Frame x:Name="mainFrame" Content="" NavigationUIVisibility="Hidden" Margin="0,-70,0,0" Grid.ColumnSpan="2" Source="/MainPage.xaml"/>
+        Title="MainMenu" Height="450" Width="800" ResizeMode="NoResize">
+    <Grid Margin="0,38,0,0" >
+        <Frame x:Name="mainFrame" Content=""  NavigationUIVisibility="Hidden" Margin="0,-70,0,0" Grid.ColumnSpan="2" Source="/MainPage.xaml"/>
     </Grid>
 </Window>

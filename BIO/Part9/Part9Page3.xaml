@@ -1,0 +1,18 @@
+﻿<Page x:Class="BIO.Part9.Part9Page3"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:BIO.Part9"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Part9Page3">
+
+    <Grid>
+        <TextBlock HorizontalAlignment="Center" Margin="0,53,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="319" Width="780" FontSize="16"><Run Text="&#x9;Закон чистоты гамет. Для того чтобы объяснить, какие клеточные"/><LineBreak/><Run Text="механизмы могут лежать в основе правила единообразия гибридов"/><LineBreak/><Run Text="первого поколения и правила расщепления, Г. Мендель предположил, что в каждой клетке организма (в его опытах — растения гороха) находится по два «элемента наследственности», отвечающих"/><LineBreak/><Run Text="за каждый определенный признак. В клетках гибридов первого поколения, хотя они имеют только желтые семена, все равно присутствуют оба «элемента», отвечающие и за желтый, и за зеленый цвета"/><LineBreak/><Run Text="горошин: один — от материнского, а другой — от отцовского растения. Только один из них проявляет свой эффект (доминирует), а второй — нет. Откуда ж е во втором поколении появляются растения с зелеными горошинами? Связь между поколениями обеспечивается через половые клетки — гаметы. &#x9;Значит, каждая гамета (в отличие от клеток тела или соматических клеток) содержит только один «элемент наследственности» из двух имеющихся в соматических"/><LineBreak/><Run Text="клетках — желтого или зеленого цвета горошин. "/><LineBreak/><Run Text="&#x9;Таким образом Г. Мендель сформулировал закон чистоты гамет : приобразовании гамет в каждую из них попадает  только один из двух «элементов наследственности» , отвечающих за данный признак."/></TextBlock>
+        <Button Content="Вперед" HorizontalAlignment="Left" Margin="128,392,0,0" VerticalAlignment="Top" Width="184" Click="Button_Click"/>
+        <Button Content="Назад" HorizontalAlignment="Left" Margin="539,392,0,0" VerticalAlignment="Top" Width="184" Click="Button_Click_1"/>
+        <TextBlock HorizontalAlignment="Left" Margin="378,415,0,0" TextWrapping="Wrap" Text="27 стр." VerticalAlignment="Top" Foreground="#FFB1ABAB"/>
+
+    </Grid>
+</Page>

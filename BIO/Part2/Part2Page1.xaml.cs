@@ -34,7 +34,7 @@ namespace BIO.Part2
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
             MainMenu mainMenu = Window.GetWindow(this) as MainMenu;
-            mainMenu.mainFrame.Navigate(new MainWindow());
+            mainMenu.mainFrame.Navigate(new MainPage());
         }
     }
 }

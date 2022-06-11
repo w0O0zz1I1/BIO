@@ -12,7 +12,7 @@
         <CheckBox x:Name="answer1" Content="Более 500" HorizontalAlignment="Left" Margin="28,74,0,0" VerticalAlignment="Top" Width="120" Checked="answer1_Checked"/>
         <CheckBox Content="100" HorizontalAlignment="Left" Margin="28,94,0,0" VerticalAlignment="Top" Width="120"/>
         <CheckBox Content="Менее 300" HorizontalAlignment="Left" Margin="28,114,0,0" VerticalAlignment="Top" Width="120"/>
-        <TextBlock HorizontalAlignment="Left" Margin="28,27,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="267" Height="37"><Run Language="ru-ru" Text="Сколько "/><Run Text="Аристотель описал"/><Run Language="ru-ru" Text=" "/><Run Text="видов"/><LineBreak/><Run Text="растений и животных?"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="28,33,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="267" Height="37"><Run Language="ru-ru" Text="Сколько "/><Run Text="Аристотель описал"/><Run Language="ru-ru" Text=" "/><Run Text="видов"/><LineBreak/><Run Text="растений и животных?"/></TextBlock>
         <TextBlock HorizontalAlignment="Left" Margin="28,133,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="214"><Run Text="На "/><Run Language="ru-ru" Text="сколько отрядов были разделены растения?"/></TextBlock>
         <CheckBox Content="154" HorizontalAlignment="Left" Margin="28,173,0,0" VerticalAlignment="Top" Width="120"/>
         <CheckBox Content="80" HorizontalAlignment="Left" Margin="28,193,0,0" VerticalAlignment="Top" Width="120"/>

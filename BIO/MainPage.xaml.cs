@@ -60,5 +60,77 @@ namespace BIO
             MainMenu mainMenu = Window.GetWindow(this) as MainMenu;
             mainMenu.mainFrame.Navigate(new Part6.Part6Page1());
         }
+
+        private void Button_Click_6(object sender, RoutedEventArgs e)
+        {
+            MainMenu mainMenu = Window.GetWindow(this) as MainMenu;
+            mainMenu.mainFrame.Navigate(new Part7.Part7Page1());
+        }
+
+        private void Button_Click_10(object sender, RoutedEventArgs e)
+        {
+            MainMenu mainMenu = Window.GetWindow(this) as MainMenu;
+            mainMenu.mainFrame.Navigate(new Part10.Part10Page1());
+        }
+
+        private void Button_Click_7(object sender, RoutedEventArgs e)
+        {
+            MainMenu mainMenu = Window.GetWindow(this) as MainMenu;
+            mainMenu.mainFrame.Navigate(new Part8.Part8Page1());
+        }
+
+        private void Button_Click_8(object sender, RoutedEventArgs e)
+        {
+            MainMenu mainMenu = Window.GetWindow(this) as MainMenu;
+            mainMenu.mainFrame.Navigate(new Part9.Part9Page1());
+        }
+
+        private void Button_Click_9(object sender, RoutedEventArgs e)
+        {
+            MainMenu mainMenu = Window.GetWindow(this) as MainMenu;
+            mainMenu.mainFrame.Navigate(new Part11.Part11Page1());
+        }
+
+        private void Button_Click_11(object sender, RoutedEventArgs e)
+        {
+            MainMenu mainMenu = Window.GetWindow(this) as MainMenu;
+            mainMenu.mainFrame.Navigate(new Part12.Part12Page1());
+        }
+
+        private void Button_Click_12(object sender, RoutedEventArgs e)
+        {
+            MainMenu mainMenu = Window.GetWindow(this) as MainMenu;
+            mainMenu.mainFrame.Navigate(new Part13.Part13Page1());
+        }
+
+        private void Button_Click_13(object sender, RoutedEventArgs e)
+        {
+            MainMenu mainMenu = Window.GetWindow(this) as MainMenu;
+            mainMenu.mainFrame.Navigate(new Part16.Part16Page1());
+        }
+
+        private void Button_Click_14(object sender, RoutedEventArgs e)
+        {
+            MainMenu mainMenu = Window.GetWindow(this) as MainMenu;
+            mainMenu.mainFrame.Navigate(new Part17.Part17Page1());
+        }
+
+        private void Button_Click_15(object sender, RoutedEventArgs e)
+        {
+            MainMenu mainMenu = Window.GetWindow(this) as MainMenu;
+            mainMenu.mainFrame.Navigate(new Part18.Part18Page1());
+        }
+
+        private void Button_Click_16(object sender, RoutedEventArgs e)
+        {
+            MainMenu mainMenu = Window.GetWindow(this) as MainMenu;
+            mainMenu.mainFrame.Navigate(new Part19.Part19Page1());
+        }
+
+        private void Button_Click_17(object sender, RoutedEventArgs e)
+        {
+            MainMenu mainMenu = Window.GetWindow(this) as MainMenu;
+            mainMenu.mainFrame.Navigate(new Part21.Part21Page1());
+        }
     }
 }

@@ -1,0 +1,18 @@
+﻿<Page x:Class="BIO.Part10.Part10Page1"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:BIO.Part10"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Part10Page1">
+
+    <Grid>
+        <TextBlock HorizontalAlignment="Center" Margin="0,34,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="344" Width="780" FontSize="16"><Run Text="&#x9;Дигибридное скрещивание. В природе не встречаются две абсолютно одинаковые особи какого-либо вида живых существ — все организмы отличаются друг от друга по многим признакам. Исключение могут представлять растения, развивающиеся в результате самоопыления"/><LineBreak/><Run Text="(например, пшеница, горох, картофель и другие), а также однояйцевые близнецы животных и человека, хотя говорить об абсолютной схожести таких особей также нельзя. Скрещивание особей, у которых учитывают отличия друг от друга по двум признакам, называется дигибридным , если по трем — то тригибридными т. д. В общем случае скрещивание особей, отличающихся по многим признакам, называется поли гибридным."/><LineBreak/><Run Text="&#x9;Закон независимого наследования признаков. Г. Мендель приступил к изучению результатов дигибридного скрещивания после того, как установил закономерности моногибридного скрещивания. Для этого он исследовал характер расщепления при скрещивании двух чистых линий гороха, различающихся по двум признакам: цвету семян (желтые или зеленые) и их форме (гладкие или морщинистые)."/><LineBreak/><Run Text="При таком скрещивании признаки определяются различными парами генов: одна пара генов отвечает за цвет семян, другая — за их форму. При этом желтая окраска горошин (А) доминирует над зеленой (а),"/><LineBreak/><Run Text="а их гладкая форма (В) — над морщинистой (b)."/></TextBlock>
+        <Button Content="Вперед" HorizontalAlignment="Left" Margin="85,399,0,0" VerticalAlignment="Top" Width="199" RenderTransformOrigin="0.618,0.601" Click="Button_Click"/>
+        <Button Content="Назад" HorizontalAlignment="Left" Margin="466,399,0,0" VerticalAlignment="Top" Width="199" Click="Button_Click_1"/>
+        <TextBlock HorizontalAlignment="Left" Margin="378,415,0,0" TextWrapping="Wrap" Text="27 стр." VerticalAlignment="Top" Foreground="#FFB1ABAB"/>
+
+    </Grid>
+</Page>
